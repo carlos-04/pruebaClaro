@@ -8,6 +8,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background: $Gray;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
     padding: 6rem 10rem 6rem 10rem;
     flex-direction: row;
     gap: 1.5rem;
-    background: $Gray;
+
 
     @media (max-width: $breakpoint-medium) {
         flex-direction: column;
